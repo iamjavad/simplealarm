@@ -10,5 +10,5 @@ while True:
     x = x.strftime("%H"+":"+"%M")
     if x == wakeup:
         print('wake up')
-        playsound('Hans Zimmer - Cornfield Chase.mp3')
+        playsound('music-name.mp3')
         break
