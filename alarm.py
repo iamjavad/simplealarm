@@ -3,7 +3,8 @@
 import datetime
 from playsound import playsound
 
-wakeup = input(str("Enter the wake-up time:"))
+wakeup = input(str("Enter the wake-up time(HH:MM):"))
+
 while True:
     x = datetime.datetime.now()
     x = x.strftime("%H"+":"+"%M")
