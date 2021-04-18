@@ -3,10 +3,11 @@
 import datetime
 from playsound import playsound
 
+wakeup = input(str("Enter the wake-up time:"))
 while True:
     x = datetime.datetime.now()
     x = x.strftime("%H"+":"+"%M")
-    if x == '22:40':
+    if x == wakeup:
         print('wake up')
         playsound('Hans Zimmer - Cornfield Chase.mp3')
         break
